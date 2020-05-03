@@ -20,6 +20,12 @@ public class Users implements Serializable {
     @Column(name = "lastname")
     private String lastName;
 
+    public Users(long id, String firstName, String lastName) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     @Override
     public String toString() {
         return "Users{" +

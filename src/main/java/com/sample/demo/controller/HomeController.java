@@ -5,6 +5,7 @@ import com.sample.demo.model.Users;
 import com.sample.demo.service.UserServiceImp;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +13,8 @@ import javax.annotation.Resource;
 import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
+
+import static java.util.Objects.isNull;
 
 @RestController
 public class HomeController {
@@ -22,7 +25,7 @@ public class HomeController {
     public HomeController(UserServiceImp userService) {
         this.userService = userService;
     }
-@Resource
+    @Autowired
     private UserServiceImp userService;
 
     @GetMapping(value = "/")
@@ -51,9 +54,19 @@ public class HomeController {
             logger.error("Invalid user");
             return "Invalid user";
         }
-        Users temp_user= new Users(user.getFirstName(), user.getLastName());
-        userService.saveUser(temp_user);
-        return "New user is created";
+        Users temp_user ;
+        if(isNull(user.getId()))
+        {
+             temp_user= new Users(user.getFirstName(), user.getLastName());
+            userService.createOrUpdate(temp_user);
+            return "New user is created";
+        }else{
+             temp_user= new Users(user.getId(),user.getFirstName(), user.getLastName());
+            userService.createOrUpdate(temp_user);
+            return "Update user with given id";
+        }
+
+
     }
 
     @GetMapping("/showAll")
