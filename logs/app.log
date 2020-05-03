@@ -1,0 +1,33 @@
+2020-05-03 12:17:45,918 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-03 12:17:45,993 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-03 12:17:46,194 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 30519 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-03 12:17:46,195 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-03 12:17:47,786 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.788 seconds (JVM running for 2.336)
+2020-05-03 12:21:06,962 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-03 12:21:07,030 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-03 12:21:07,245 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 30837 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-03 12:21:07,246 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-03 12:21:08,818 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.786 seconds (JVM running for 2.33)
+2020-05-03 12:24:19,769 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-03 12:24:19,835 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-03 12:24:20,045 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 31256 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-03 12:24:20,047 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-03 12:24:21,658 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.819 seconds (JVM running for 2.348)
+2020-05-03 12:34:51,786 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-03 12:34:51,861 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-03 12:34:52,069 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 674 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-03 12:34:52,070 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-03 12:34:53,640 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.776 seconds (JVM running for 2.321)
+2020-05-03 12:35:20,527 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-03 12:35:20,594 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-03 12:35:20,802 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 1369 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-03 12:35:20,804 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-03 12:35:22,410 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.813 seconds (JVM running for 2.353)
+2020-05-03 12:35:48,816 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-03 12:35:48,891 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-03 12:35:49,097 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 1533 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-03 12:35:49,099 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-03 12:35:50,709 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.815 seconds (JVM running for 2.38)
+2020-05-03 12:35:57,029 INFO c.s.d.c.HomeController [http-nio-9090-exec-2] Enter home page
+2020-05-03 12:36:04,149 INFO c.s.d.c.HomeController [http-nio-9090-exec-3] Initial database with users
+2020-05-03 12:36:23,702 INFO c.s.d.c.HomeController [http-nio-9090-exec-5] Save new user
