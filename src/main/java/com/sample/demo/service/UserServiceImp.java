@@ -36,7 +36,7 @@ public class UserServiceImp implements UserService {
     public void createOrUpdate(Users user) {
         Optional<Users> users = repository.findById(user.getId());
         if (users.isPresent()) {
-            logger.info("Update user with given id");
+            logger.info("Update user with id :"+users.get().getId());
             Users temp = users.get();
             temp.setId(user.getId());
             temp.setLastName(user.getLastName());
@@ -57,7 +57,7 @@ public class UserServiceImp implements UserService {
     public void deleteUserById(Long id) throws RecordNotFoundException {
         Optional<Users> user= repository.findById(id);
         if (user.isPresent()) {
-            logger.info("Delete user with given %d",id);
+            logger.info("Delete user with given "+id);
             repository.deleteById(id);
         } else {
             logger.info("No user record exist for given id");
@@ -69,7 +69,7 @@ public class UserServiceImp implements UserService {
     public UserDto getUserById(Long id) throws RecordNotFoundException {
         Optional<Users> user= repository.findById(id);
         if (user.isPresent()) {
-            logger.info("Find user with given %d",id);
+            logger.info("Find user with given "+id);
             Users users = user.get();
             return new UserDto(users.getId(),users.getFirstName(),users.getLastName());
         } else {

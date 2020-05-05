@@ -81,7 +81,7 @@ public class HomeController {
     }
 
     @DeleteMapping("/delete")
-    public String deleteEmployeeById(@RequestParam("id") Long id) throws RecordNotFoundException {
+    public String deleteUserById(@RequestParam("id") Long id) throws RecordNotFoundException {
         userService.deleteUserById(id);
         return "User with given id deleted";
     }
