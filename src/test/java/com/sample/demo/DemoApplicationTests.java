@@ -38,7 +38,7 @@ class DemoApplicationTests {
 	public void findAllTest(){
 		when(userRepository.findAll()).thenReturn(Stream.of(new Users("Parastoo", "F")
 				, new Users("Bahar", "A")).collect(Collectors.toList()));
-		assertEquals(2,userService.findAll().size());
+		assertEquals(2,userService.getAll().size());
 	}
 	}
 

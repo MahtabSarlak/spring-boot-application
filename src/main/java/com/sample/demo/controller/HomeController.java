@@ -1,6 +1,7 @@
 package com.sample.demo.controller;
 
 import com.sample.demo.dto.UserDto;
+import com.sample.demo.exception.RecordNotFoundException;
 import com.sample.demo.model.Users;
 import com.sample.demo.service.UserServiceImp;
 import org.apache.logging.log4j.LogManager;
@@ -47,7 +48,7 @@ public class HomeController {
         return "initail users are created";
     }
 
-    @PostMapping("/create")
+    @PostMapping(value = {"/create","/update"})
     public @ResponseBody
     String create(@RequestBody @Valid UserDto user , BindingResult bindingResult) {
         if(bindingResult.hasErrors()){
@@ -61,17 +62,27 @@ public class HomeController {
             userService.createOrUpdate(temp_user);
             return "New user is created";
         }else{
-             temp_user= new Users(user.getId(),user.getFirstName(), user.getLastName());
+            temp_user= new Users(user.getId(),user.getFirstName(), user.getLastName());
             userService.createOrUpdate(temp_user);
             return "Update user with given id";
         }
-
-
     }
 
     @GetMapping("/showAll")
     public @ResponseBody
-    List<UserDto> findAll() {
-        return userService.findAll();
+    List<UserDto> getAll() {
+        return userService.getAll();
+    }
+
+    @GetMapping("/getUser")
+    public UserDto getUserById(@RequestParam("id") Long id) throws RecordNotFoundException {
+        UserDto user = userService.getUserById(id);
+        return user;
+    }
+
+    @DeleteMapping("/delete")
+    public String deleteEmployeeById(@RequestParam("id") Long id) throws RecordNotFoundException {
+        userService.deleteUserById(id);
+        return "User with given id deleted";
     }
 }

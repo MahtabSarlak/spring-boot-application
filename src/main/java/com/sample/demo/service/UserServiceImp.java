@@ -2,6 +2,7 @@ package com.sample.demo.service;
 
 import com.sample.demo.controller.HomeController;
 import com.sample.demo.dto.UserDto;
+import com.sample.demo.exception.RecordNotFoundException;
 import com.sample.demo.model.Users;
 import com.sample.demo.repository.UserRepository;
 import org.apache.logging.log4j.LogManager;
@@ -22,7 +23,7 @@ public class UserServiceImp implements UserService {
     private static final Logger logger = LogManager.getLogger(HomeController.class);
 
 
-    public List<UserDto> findAll() {
+    public List<UserDto> getAll() {
         logger.info("Return all users data");
         List<Users> users = repository.findAll();
         List<UserDto> userdtos = new ArrayList<>();
@@ -51,4 +52,30 @@ public class UserServiceImp implements UserService {
         logger.info("Initial database with users");
         repository.saveAll(users);
     }
+
+    @Override
+    public void deleteUserById(Long id) throws RecordNotFoundException {
+        Optional<Users> user= repository.findById(id);
+        if (user.isPresent()) {
+            logger.info("Delete user with given %d",id);
+            repository.deleteById(id);
+        } else {
+            logger.info("No user record exist for given id");
+            throw new RecordNotFoundException("No user record exist for given id");
+        }
+    }
+
+    @Override
+    public UserDto getUserById(Long id) throws RecordNotFoundException {
+        Optional<Users> user= repository.findById(id);
+        if (user.isPresent()) {
+            logger.info("Find user with given %d",id);
+            Users users = user.get();
+            return new UserDto(users.getId(),users.getFirstName(),users.getLastName());
+        } else {
+            logger.info("No user record exist for given id");
+            throw new RecordNotFoundException("No user record exist for given id");
+        }
+    }
+
 }
