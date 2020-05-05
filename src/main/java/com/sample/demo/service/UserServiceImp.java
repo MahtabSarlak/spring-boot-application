@@ -22,7 +22,6 @@ public class UserServiceImp implements UserService {
 
     private static final Logger logger = LogManager.getLogger(HomeController.class);
 
-
     public List<UserDto> getAll() {
         logger.info("Return all users data");
         List<Users> users = repository.findAll();
@@ -33,7 +32,7 @@ public class UserServiceImp implements UserService {
         return userdtos;
     }
 
-    public void createOrUpdate(Users user) {
+    public void create(Users user) {
         Optional<Users> users = repository.findById(user.getId());
         if (users.isPresent()) {
             logger.info("Update user with id :"+users.get().getId());
@@ -47,6 +46,22 @@ public class UserServiceImp implements UserService {
             repository.save(user);
         }
     }
+
+    public void update(Users user) {
+        Optional<Users> users = repository.findById(user.getId());
+        if (users.isPresent()) {
+            logger.info("Update user with id :"+users.get().getId());
+            Users temp = users.get();
+            temp.setId(user.getId());
+            temp.setLastName(user.getLastName());
+            temp.setFirstName(user.getFirstName());
+            repository.save(temp);
+        } else {
+            logger.info("Save new user");
+            repository.save(user);
+        }
+    }
+
 
     public void saveInitUsers(List<Users> users) {
         logger.info("Initial database with users");

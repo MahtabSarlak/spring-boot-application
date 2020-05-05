@@ -20,12 +20,14 @@ import static java.util.Objects.isNull;
 @RestController
 public class HomeController {
     private static final Logger logger = LogManager.getLogger(HomeController.class);
+
     public HomeController() {
     }
 
     public HomeController(UserServiceImp userService) {
         this.userService = userService;
     }
+
     @Autowired
     private UserServiceImp userService;
 
@@ -36,8 +38,7 @@ public class HomeController {
         return "Welcome!!!";
     }
 
-
-    @GetMapping("/init")
+    /*@GetMapping("/init")
     public @ResponseBody
     String initDb() {
 
@@ -46,26 +47,41 @@ public class HomeController {
                 , new Users("Bahar", "A")
         ));
         return "initail users are created";
-    }
+    }*/
 
-    @PostMapping(value = {"/create","/update"})
+    @PostMapping(value = "/create")
     public @ResponseBody
-    String create(@RequestBody @Valid UserDto user , BindingResult bindingResult) {
-        if(bindingResult.hasErrors()){
+    String create(@RequestBody @Valid UserDto user, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
             logger.error("Invalid user");
             return "Invalid user";
         }
-        Users temp_user ;
-        if(isNull(user.getId()))
-        {
-             temp_user= new Users(user.getFirstName(), user.getLastName());
-            userService.createOrUpdate(temp_user);
+        Users temp_user;
+        if (isNull(user.getId())) {
+            temp_user = new Users(user.getFirstName(), user.getLastName());
+            userService.create(temp_user);
             return "New user is created";
-        }else{
-            temp_user= new Users(user.getId(),user.getFirstName(), user.getLastName());
-            userService.createOrUpdate(temp_user);
-            return "Update user with given id";
         }
+        temp_user = new Users(user.getId(), user.getFirstName(), user.getLastName());
+        userService.create(temp_user);
+        return "Update user with given id";
+    }
+    @PostMapping(value = "/update")
+    public @ResponseBody
+    String update(@RequestBody @Valid UserDto user, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            logger.error("Invalid user");
+            return "Invalid user";
+        }
+        Users temp_user;
+        if (isNull(user.getId())) {
+            temp_user = new Users(user.getFirstName(), user.getLastName());
+            userService.update(temp_user);
+            return "New user is created";
+        }
+        temp_user = new Users(user.getId(), user.getFirstName(), user.getLastName());
+        userService.update(temp_user);
+        return "Update user with given id";
     }
 
     @GetMapping("/showAll")
@@ -76,8 +92,7 @@ public class HomeController {
 
     @GetMapping("/getUser")
     public UserDto getUserById(@RequestParam("id") Long id) throws RecordNotFoundException {
-        UserDto user = userService.getUserById(id);
-        return user;
+        return userService.getUserById(id);
     }
 
     @DeleteMapping("/delete")
