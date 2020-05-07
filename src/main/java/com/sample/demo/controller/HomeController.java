@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -31,27 +32,24 @@ public class HomeController {
     @Autowired
     private UserServiceImp userService;
 
-    @GetMapping(value = "/")
-    public @ResponseBody
-    String homePage() {
-        logger.info("Enter home page");
-        return "Welcome!!!";
-    }
-
     @PostMapping(value = "/create")
     public @ResponseBody
     String create(@RequestBody @Valid UserDto user, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             logger.error("Invalid user");
+            List<FieldError> errors = bindingResult.getFieldErrors();
+            for (FieldError error : errors ) {
+                logger.error(error.getDefaultMessage());
+            }
             return "Invalid user";
         }
         Users temp_user;
         if (isNull(user.getId())) {
-            temp_user = new Users(user.getFirstName(), user.getLastName());
+            temp_user = new Users(user.getFirstName(), user.getLastName(),user.getPassword());
             userService.create(temp_user);
             return "New user is created";
         }
-        temp_user = new Users(user.getId(), user.getFirstName(), user.getLastName());
+        temp_user = new Users(user.getId(), user.getFirstName(), user.getLastName(),user.getPassword());
         userService.create(temp_user);
         return "Update user with given id";
     }
@@ -60,15 +58,19 @@ public class HomeController {
     String update(@RequestBody @Valid UserDto user, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             logger.error("Invalid user");
+            List<FieldError> errors = bindingResult.getFieldErrors();
+            for (FieldError error : errors ) {
+                logger.error(error.getDefaultMessage());
+            }
             return "Invalid user";
         }
         Users temp_user;
         if (isNull(user.getId())) {
-            temp_user = new Users(user.getFirstName(), user.getLastName());
+            temp_user = new Users(user.getFirstName(), user.getLastName(),user.getPassword());
             userService.update(temp_user);
             return "New user is created";
         }
-        temp_user = new Users(user.getId(), user.getFirstName(), user.getLastName());
+        temp_user = new Users(user.getId(), user.getFirstName(), user.getLastName(),user.getPassword());
         userService.update(temp_user);
         return "Update user with given id";
     }

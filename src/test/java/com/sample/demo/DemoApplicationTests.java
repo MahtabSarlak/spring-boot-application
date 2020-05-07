@@ -9,8 +9,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.when;
 
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentMatchers;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -36,9 +38,8 @@ class DemoApplicationTests {
 
 	@Test
 	public void findAllTest(){
-		when(userRepository.findAll()).thenReturn(Stream.of(new Users("Parastoo", "F")
-				, new Users("Bahar", "A")).collect(Collectors.toList()));
+		when(userRepository.findAll()).thenReturn(Stream.of(new Users("Parastoo", "F","1234")
+				, new Users("Bahar", "A","1234")).collect(Collectors.toList()));
 		assertEquals(2,userService.getAll().size());
 	}
 	}
-

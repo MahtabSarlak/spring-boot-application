@@ -27,7 +27,7 @@ public class UserServiceImp implements UserService {
         List<Users> users = repository.findAll();
         List<UserDto> userdtos = new ArrayList<>();
         for (Users user : users) {
-            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName()));
+            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName(),user.getPassword()));
         }
         return userdtos;
     }
@@ -80,7 +80,7 @@ public class UserServiceImp implements UserService {
         if (user.isPresent()) {
             logger.info("Find user with given "+id);
             Users users = user.get();
-            return new UserDto(users.getId(),users.getFirstName(),users.getLastName());
+            return new UserDto(users.getId(),users.getFirstName(),users.getLastName(),users.getPassword());
         } else {
             logger.info("No user record exist for given id");
             throw new RecordNotFoundException("No user record exist for given id");
@@ -93,7 +93,7 @@ public class UserServiceImp implements UserService {
         List<Users> users= repository.findByFirstName(firstName);
         List<UserDto> userdtos = new ArrayList<>();
         for (Users user : users) {
-            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName()));
+            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName(),user.getPassword()));
         }
         return userdtos;
     }
@@ -104,7 +104,7 @@ public class UserServiceImp implements UserService {
         List<Users> users= repository.findByFirstNameContains(name);
         List<UserDto> userdtos = new ArrayList<>();
         for (Users user : users) {
-            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName()));
+            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName(),user.getPassword()));
         }
         return userdtos;
     }

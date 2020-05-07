@@ -6,7 +6,6 @@ import java.io.Serializable;
 @Entity
 @Table(name = "users")
 public class Users implements Serializable {
-    private static final long serialVersionUID = -2343243243242432341L;
     public Users() {
     }
 
@@ -20,20 +19,10 @@ public class Users implements Serializable {
     @Column(name = "lastname")
     private String lastName;
 
-    public Users(long id, String firstName, String lastName) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+    @Column(name = "password")
+    private String password;
 
-    @Override
-    public String toString() {
-        return "Users{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
-    }
+
 
     public long getId() {
         return id;
@@ -59,8 +48,34 @@ public class Users implements Serializable {
         this.lastName = lastName;
     }
 
-    public Users(String firstName, String lastName) {
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", password=" + password +
+                '}';
+    }
+
+    public Users(String firstName, String lastName, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.password = password;
+    }
+
+    public Users(long id, String firstName, String lastName, String password) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.password = password;
     }
 }

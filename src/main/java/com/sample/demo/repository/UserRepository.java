@@ -7,10 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
+@org.springframework.stereotype.Repository
 public interface  UserRepository  extends JpaRepository<Users,Long> {
         List<Users> findAll();
         List<Users> findByFirstName(String firstName);
         List<Users> findByFirstNameContains(String name);
-
 }
