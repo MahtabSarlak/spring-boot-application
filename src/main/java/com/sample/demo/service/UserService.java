@@ -10,11 +10,15 @@ public interface UserService {
     public List<UserDto> getAll();
 
     public void create(Users user);
+
     public void update(Users user);
-    public void saveInitUsers(List<Users> users);
 
     public void deleteUserById(Long id) throws RecordNotFoundException;
 
     public UserDto getUserById(Long id) throws RecordNotFoundException;
+
+    public List<UserDto> getUserByFirstName(String firstName);
+
+    public List<UserDto> getUserByFirstNameLike(String firstName);
 
 }

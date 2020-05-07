@@ -138,3 +138,68 @@
 2020-05-05 09:53:42,355 INFO c.s.d.c.HomeController [http-nio-9090-exec-1] Return all users data
 2020-05-05 09:54:27,006 INFO c.s.d.c.HomeController [http-nio-9090-exec-2] Find user with given %d
 2020-05-05 09:54:37,342 INFO c.s.d.c.HomeController [http-nio-9090-exec-3] No user record exist for given id
+2020-05-07 08:52:10,922 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-07 08:52:11,004 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-07 08:52:11,278 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 3205 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-07 08:52:11,280 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-07 08:52:13,018 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 2.01 seconds (JVM running for 2.667)
+2020-05-07 09:13:52,818 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-07 09:13:52,945 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-07 09:13:53,249 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 5375 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-07 09:13:53,251 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-07 09:13:54,990 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 2.04 seconds (JVM running for 2.901)
+2020-05-07 09:15:18,539 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-07 09:15:18,604 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-07 09:15:18,821 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 5535 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-07 09:15:18,823 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-07 09:15:20,440 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.833 seconds (JVM running for 2.403)
+2020-05-07 09:15:29,017 INFO c.s.d.c.HomeController [http-nio-9090-exec-2] Save new user
+2020-05-07 09:15:33,192 INFO c.s.d.c.HomeController [http-nio-9090-exec-3] Return all users data
+2020-05-07 09:15:44,090 INFO c.s.d.c.HomeController [http-nio-9090-exec-4] Save new user
+2020-05-07 09:15:46,776 INFO c.s.d.c.HomeController [http-nio-9090-exec-5] Return all users data
+2020-05-07 09:15:53,473 INFO c.s.d.c.HomeController [http-nio-9090-exec-6] Save new user
+2020-05-07 09:15:55,915 INFO c.s.d.c.HomeController [http-nio-9090-exec-7] Return all users data
+2020-05-07 09:16:10,954 INFO c.s.d.c.HomeController [http-nio-9090-exec-8] Update user with id :3
+2020-05-07 09:16:14,515 INFO c.s.d.c.HomeController [http-nio-9090-exec-9] Return all users data
+2020-05-07 09:16:21,551 INFO c.s.d.c.HomeController [http-nio-9090-exec-10] Delete user with given 1
+2020-05-07 09:16:25,429 INFO c.s.d.c.HomeController [http-nio-9090-exec-1] Return all users data
+2020-05-07 09:20:58,240 INFO c.s.d.c.HomeController [http-nio-9090-exec-6] No user record exist for given id
+2020-05-07 09:21:02,666 INFO c.s.d.c.HomeController [http-nio-9090-exec-7] Find user with given 2
+2020-05-07 09:21:05,663 INFO c.s.d.c.HomeController [http-nio-9090-exec-8] Return all users data
+2020-05-07 09:21:25,825 INFO c.s.d.c.HomeController [http-nio-9090-exec-9] Delete user with given 3
+2020-05-07 09:21:28,702 INFO c.s.d.c.HomeController [http-nio-9090-exec-10] Return all users data
+2020-05-07 09:21:32,631 INFO c.s.d.c.HomeController [http-nio-9090-exec-1] Save new user
+2020-05-07 09:21:34,769 INFO c.s.d.c.HomeController [http-nio-9090-exec-2] Return all users data
+2020-05-07 09:22:22,160 INFO c.s.d.c.HomeController [http-nio-9090-exec-3] Find user with given firstName : kiana
+2020-05-07 09:22:27,462 INFO c.s.d.c.HomeController [http-nio-9090-exec-4] Find user with given firstName : tony
+2020-05-07 09:22:47,373 INFO c.s.d.c.HomeController [http-nio-9090-exec-5] Save new user
+2020-05-07 09:22:51,628 INFO c.s.d.c.HomeController [http-nio-9090-exec-6] Return all users data
+2020-05-07 09:23:07,476 INFO c.s.d.c.HomeController [http-nio-9090-exec-7] Return all users data
+2020-05-07 09:23:14,939 INFO c.s.d.c.HomeController [http-nio-9090-exec-8] Save new user
+2020-05-07 09:23:17,584 INFO c.s.d.c.HomeController [http-nio-9090-exec-9] Find user with given firstName : tony
+2020-05-07 09:24:57,291 INFO c.s.d.c.HomeController [http-nio-9090-exec-1] Find users with firstname contains: tony
+2020-05-07 09:25:05,906 INFO c.s.d.c.HomeController [http-nio-9090-exec-2] Find users with firstname contains: edward
+2020-05-07 09:25:53,290 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-07 09:25:53,360 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-07 09:25:53,609 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 6025 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-07 09:25:53,610 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-07 09:25:55,291 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.926 seconds (JVM running for 2.474)
+2020-05-07 09:26:05,206 INFO c.s.d.c.HomeController [http-nio-9090-exec-2] Save new user
+2020-05-07 09:26:08,309 INFO c.s.d.c.HomeController [http-nio-9090-exec-3] Return all users data
+2020-05-07 09:26:13,163 INFO c.s.d.c.HomeController [http-nio-9090-exec-4] Find users with firstname contains: edward
+2020-05-07 09:26:16,871 INFO c.s.d.c.HomeController [http-nio-9090-exec-5] Find user with given firstName : tony
+2020-05-07 09:26:24,269 INFO c.s.d.c.HomeController [http-nio-9090-exec-6] Save new user
+2020-05-07 09:26:26,403 INFO c.s.d.c.HomeController [http-nio-9090-exec-7] Find users with firstname contains: edward
+2020-05-07 09:26:28,390 INFO c.s.d.c.HomeController [http-nio-9090-exec-8] Find user with given firstName : tony
+2020-05-07 09:26:34,469 INFO c.s.d.c.HomeController [http-nio-9090-exec-9] Find users with firstname contains: tony
+2020-05-07 09:27:56,426 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-07 09:27:56,495 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-07 09:27:56,700 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 6231 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-07 09:27:56,702 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-07 09:27:58,401 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.902 seconds (JVM running for 2.501)
+2020-05-07 09:28:02,692 INFO c.s.d.c.HomeController [http-nio-9090-exec-1] Return all users data
+2020-05-07 09:28:06,347 INFO c.s.d.c.HomeController [http-nio-9090-exec-3] Save new user
+2020-05-07 09:28:11,627 INFO c.s.d.c.HomeController [http-nio-9090-exec-4] Save new user
+2020-05-07 09:28:17,069 INFO c.s.d.c.HomeController [http-nio-9090-exec-5] Return all users data
+2020-05-07 09:28:21,091 INFO c.s.d.c.HomeController [http-nio-9090-exec-6] Find users with firstname contains: tony
+2020-05-07 09:28:26,187 INFO c.s.d.c.HomeController [http-nio-9090-exec-7] Find users with firstname contains: edward

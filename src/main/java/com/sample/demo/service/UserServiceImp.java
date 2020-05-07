@@ -62,12 +62,6 @@ public class UserServiceImp implements UserService {
         }
     }
 
-
-    public void saveInitUsers(List<Users> users) {
-        logger.info("Initial database with users");
-        repository.saveAll(users);
-    }
-
     @Override
     public void deleteUserById(Long id) throws RecordNotFoundException {
         Optional<Users> user= repository.findById(id);
@@ -93,4 +87,25 @@ public class UserServiceImp implements UserService {
         }
     }
 
+    @Override
+    public  List<UserDto> getUserByFirstName(String firstName)  {
+        logger.info("Find user with given firstName : "+firstName);
+        List<Users> users= repository.findByFirstName(firstName);
+        List<UserDto> userdtos = new ArrayList<>();
+        for (Users user : users) {
+            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName()));
+        }
+        return userdtos;
+    }
+
+    @Override
+    public List<UserDto> getUserByFirstNameLike(String name) {
+        logger.info("Find users with firstname contains: "+name);
+        List<Users> users= repository.findByFirstNameContains(name);
+        List<UserDto> userdtos = new ArrayList<>();
+        for (Users user : users) {
+            userdtos.add(new UserDto(user.getId(), user.getFirstName(), user.getLastName()));
+        }
+        return userdtos;
+    }
 }

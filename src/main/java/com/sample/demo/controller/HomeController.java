@@ -38,17 +38,6 @@ public class HomeController {
         return "Welcome!!!";
     }
 
-    /*@GetMapping("/init")
-    public @ResponseBody
-    String initDb() {
-
-        userService.saveInitUsers(Arrays.asList(new Users("Kiana", "S")
-                , new Users("Parastoo", "F")
-                , new Users("Bahar", "A")
-        ));
-        return "initail users are created";
-    }*/
-
     @PostMapping(value = "/create")
     public @ResponseBody
     String create(@RequestBody @Valid UserDto user, BindingResult bindingResult) {
@@ -90,9 +79,19 @@ public class HomeController {
         return userService.getAll();
     }
 
-    @GetMapping("/getUser")
+    @GetMapping("/getUserById")
     public UserDto getUserById(@RequestParam("id") Long id) throws RecordNotFoundException {
         return userService.getUserById(id);
+    }
+
+    @GetMapping("/getUserByFirstName")
+    public List<UserDto> getUserByFirstName(@RequestParam("firstName") String firstName) {
+        return userService.getUserByFirstName(firstName);
+    }
+
+    @GetMapping("/getUserByFirstNameLike")
+    public List<UserDto> getUserByFirstNameLike(@RequestParam("name") String name) {
+        return userService.getUserByFirstNameLike(name);
     }
 
     @DeleteMapping("/delete")
