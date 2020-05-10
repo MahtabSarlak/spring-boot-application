@@ -28,7 +28,7 @@ Prerequisites: Intellij IDE ([with maven and Tomcat plugin installed]
 
 1. Clone this git repository
 
-` $ git clone https://github.com/mahtab2/spring-boot-application.git `
+`  git clone https://github.com/mahtab2/spring-boot-application.git `
  
 2. Run `tomcatRun` 
  
