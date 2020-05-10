@@ -8,7 +8,6 @@ import com.sample.demo.repository.UserRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -32,7 +31,7 @@ public class UserServiceImp implements UserService {
         return userdtos;
     }
 
-    public void create(Users user) {
+    public Users create(Users user) {
         Optional<Users> users = repository.findById(user.getId());
         if (users.isPresent()) {
             logger.info("Update user with id :"+users.get().getId());
@@ -45,9 +44,10 @@ public class UserServiceImp implements UserService {
             logger.info("Save new user");
             repository.save(user);
         }
+        return user;
     }
 
-    public void update(Users user) {
+    public Users update(Users user) {
         Optional<Users> users = repository.findById(user.getId());
         if (users.isPresent()) {
             logger.info("Update user with id :"+users.get().getId());
@@ -60,6 +60,7 @@ public class UserServiceImp implements UserService {
             logger.info("Save new user");
             repository.save(user);
         }
+        return user;
     }
 
     @Override

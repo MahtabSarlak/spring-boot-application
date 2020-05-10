@@ -606,3 +606,567 @@ org.postgresql.util.PSQLException: ERROR: column "password" is of type integer b
 2020-05-07 14:53:43,058 INFO c.s.d.c.HomeControllerTest [main] Starting HomeControllerTest on test03-System-Product-Name with PID 26151 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
 2020-05-07 14:53:43,065 INFO c.s.d.c.HomeControllerTest [main] No active profile set, falling back to default profiles: default
 2020-05-07 14:53:44,155 INFO c.s.d.c.HomeControllerTest [main] Started HomeControllerTest in 1.268 seconds (JVM running for 2.214)
+2020-05-10 08:50:43,506 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 4958 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 08:50:43,513 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 08:50:43,982 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.657 seconds (JVM running for 1.716)
+2020-05-10 08:50:44,008 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 08:50:55,516 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 5016 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 08:50:55,522 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 08:50:55,925 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.601 seconds (JVM running for 1.585)
+2020-05-10 08:50:55,952 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 08:53:26,079 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 5099 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 08:53:26,084 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 08:53:26,487 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.612 seconds (JVM running for 1.539)
+2020-05-10 08:53:26,512 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 08:55:05,235 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 5360 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 08:55:05,240 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 08:55:05,650 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.585 seconds (JVM running for 1.584)
+2020-05-10 08:55:05,673 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:01:13,806 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 5545 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:01:13,812 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:01:14,228 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.618 seconds (JVM running for 1.609)
+2020-05-10 09:01:14,253 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:05:38,130 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 5762 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:05:38,137 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:05:38,547 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.611 seconds (JVM running for 1.56)
+2020-05-10 09:05:38,572 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:08:12,607 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6022 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:08:12,613 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:08:13,129 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.733 seconds (JVM running for 1.955)
+2020-05-10 09:08:13,159 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:08:13,167 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:08:22,482 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6086 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:08:22,490 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:08:22,993 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.724 seconds (JVM running for 1.955)
+2020-05-10 09:08:23,031 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:08:31,549 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6158 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:08:31,556 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:08:32,073 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.751 seconds (JVM running for 1.951)
+2020-05-10 09:08:32,106 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:08:32,114 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:09:17,910 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6240 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:09:17,917 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:09:18,442 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.793 seconds (JVM running for 2.081)
+2020-05-10 09:09:18,469 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:12:25,425 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6348 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:12:25,431 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:12:25,934 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.715 seconds (JVM running for 1.956)
+2020-05-10 09:12:25,967 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:12:25,975 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:14:16,535 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6444 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:14:16,541 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:14:16,719 ERROR o.s.t.c.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2c30b71f] to prepare test instance [com.sample.demo.service.UserServiceImpTest@1d81e101]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassTestDescriptor.java:349) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:215) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:349) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:313) ~[?:1.8.0_252]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:647) ~[?:1.8.0_252]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:348) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$2(ClassTestDescriptor.java:259) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$3(ClassTestDescriptor.java:263) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[?:1.8.0_252]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$4(ClassTestDescriptor.java:262) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$before$0(ClassTestDescriptor.java:192) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:191) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:74) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:132) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_252]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImp': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sample.demo.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 56 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sample.demo.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1700) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1256) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 56 more
+2020-05-10 09:15:15,634 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6533 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:15:15,640 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:15:15,801 ERROR o.s.t.c.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2c30b71f] to prepare test instance [com.sample.demo.service.UserServiceImpTest@1d81e101]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassTestDescriptor.java:349) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:215) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:349) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:313) ~[?:1.8.0_252]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:647) ~[?:1.8.0_252]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:348) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$2(ClassTestDescriptor.java:259) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$3(ClassTestDescriptor.java:263) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[?:1.8.0_252]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$4(ClassTestDescriptor.java:262) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$before$0(ClassTestDescriptor.java:192) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:191) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.before(ClassTestDescriptor.java:74) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:132) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_252]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImp': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sample.demo.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 56 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sample.demo.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1700) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1256) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 56 more
+2020-05-10 09:16:23,845 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6620 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:16:23,852 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:16:24,357 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.721 seconds (JVM running for 2.019)
+2020-05-10 09:16:24,398 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:16:24,407 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:16:53,015 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6690 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:16:53,021 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:16:53,589 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.781 seconds (JVM running for 1.986)
+2020-05-10 09:16:53,620 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:18:04,002 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6813 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:18:04,009 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:18:04,567 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.829 seconds (JVM running for 2.134)
+2020-05-10 09:18:04,601 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:18:30,534 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6880 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:18:30,539 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:18:31,085 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.782 seconds (JVM running for 2.073)
+2020-05-10 09:18:47,982 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 6951 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:18:47,988 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:18:48,532 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.773 seconds (JVM running for 2.047)
+2020-05-10 09:19:41,833 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7025 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:19:41,838 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:19:42,378 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.772 seconds (JVM running for 2.052)
+2020-05-10 09:19:42,408 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:19:42,417 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:26:09,802 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7223 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:26:09,807 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:26:10,212 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.584 seconds (JVM running for 1.567)
+2020-05-10 09:26:10,236 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:29:57,264 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7552 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:29:57,270 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:29:57,725 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.643 seconds (JVM running for 1.642)
+2020-05-10 09:29:57,752 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:30:04,144 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7611 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:30:04,149 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:30:04,553 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.584 seconds (JVM running for 1.517)
+2020-05-10 09:30:04,576 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:30:04,584 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:31:41,214 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7769 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:31:41,220 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:31:41,629 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.605 seconds (JVM running for 1.565)
+2020-05-10 09:31:41,654 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:31:41,664 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:31:41,664 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:32:26,189 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7847 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:32:26,194 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:32:26,601 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.603 seconds (JVM running for 1.607)
+2020-05-10 09:32:26,624 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:32:26,632 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:32:26,633 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:33:37,822 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 7931 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:33:37,828 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:33:38,234 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.602 seconds (JVM running for 1.529)
+2020-05-10 09:33:38,258 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:33:38,266 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:33:38,266 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:34:16,225 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8004 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:34:16,230 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:34:16,638 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.601 seconds (JVM running for 1.589)
+2020-05-10 09:34:16,663 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:34:16,671 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:34:16,672 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:35:34,026 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8107 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:35:34,032 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:35:34,427 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.582 seconds (JVM running for 1.578)
+2020-05-10 09:35:34,452 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:35:34,459 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:41:07,158 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8265 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:41:07,164 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:41:07,575 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.599 seconds (JVM running for 1.753)
+2020-05-10 09:41:07,599 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:42:07,554 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8351 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:42:07,559 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:42:07,972 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.613 seconds (JVM running for 1.564)
+2020-05-10 09:42:07,998 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:43:50,028 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8459 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:43:50,035 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:43:50,438 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.606 seconds (JVM running for 1.57)
+2020-05-10 09:43:50,463 INFO c.s.d.c.HomeController [main] Update user with id :3
+2020-05-10 09:43:50,470 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:43:50,473 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:43:50,481 INFO c.s.d.c.HomeController [main] No user record exist for given id
+2020-05-10 09:44:43,536 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8535 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:44:43,543 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:44:43,959 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.603 seconds (JVM running for 1.55)
+2020-05-10 09:44:43,987 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:44:43,996 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:44:43,998 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:44:44,009 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 09:51:29,613 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8691 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:51:29,618 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:51:30,056 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.621 seconds (JVM running for 1.555)
+2020-05-10 09:51:30,081 INFO c.s.d.c.HomeController [main] Find user with given firstName : usertemp
+2020-05-10 09:54:50,681 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 8968 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:54:50,687 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:54:51,104 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.626 seconds (JVM running for 1.627)
+2020-05-10 09:54:51,129 INFO c.s.d.c.HomeController [main] Find user with given firstName : usertemp
+2020-05-10 09:56:24,409 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9063 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:56:24,415 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:56:24,803 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.584 seconds (JVM running for 1.561)
+2020-05-10 09:56:24,830 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 09:57:45,751 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9166 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:57:45,759 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:57:46,172 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.617 seconds (JVM running for 1.563)
+2020-05-10 09:57:46,194 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 09:57:52,977 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9231 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 09:57:52,987 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 09:57:53,383 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.601 seconds (JVM running for 1.542)
+2020-05-10 09:57:53,408 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:57:53,416 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 09:57:53,420 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 09:57:53,423 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 09:57:53,431 INFO c.s.d.c.HomeController [main] Find user with given firstName : usertemp
+2020-05-10 09:57:53,436 INFO c.s.d.c.HomeController [main] Find user with given 3
+2020-05-10 09:57:53,440 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 10:00:58,081 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9346 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:00:58,088 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:00:58,535 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.658 seconds (JVM running for 1.624)
+2020-05-10 10:01:12,040 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9412 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:01:12,046 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:01:12,479 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.637 seconds (JVM running for 1.592)
+2020-05-10 10:02:43,722 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9501 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:02:43,728 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:02:44,151 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.636 seconds (JVM running for 1.61)
+2020-05-10 10:02:44,176 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:03:15,249 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9582 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:03:15,256 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:03:15,653 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.591 seconds (JVM running for 1.556)
+2020-05-10 10:03:15,676 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:03:23,182 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9646 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:03:23,187 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:03:23,599 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.611 seconds (JVM running for 1.574)
+2020-05-10 10:03:23,622 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:03:23,630 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 10:03:23,633 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:03:23,635 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 10:03:23,643 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:03:23,647 INFO c.s.d.c.HomeController [main] Find user with given 3
+2020-05-10 10:03:23,650 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 10:03:37,839 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9712 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:03:37,846 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:03:38,272 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.632 seconds (JVM running for 1.566)
+2020-05-10 10:03:38,295 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:03:38,302 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 10:03:38,305 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:03:38,307 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 10:03:38,314 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:03:38,316 INFO c.s.d.c.HomeController [main] Find user with given 3
+2020-05-10 10:03:38,319 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 10:04:05,071 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9780 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:04:05,078 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:04:05,483 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.621 seconds (JVM running for 1.582)
+2020-05-10 10:04:05,506 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:04:05,515 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 10:04:05,517 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:04:05,520 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 10:04:05,522 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:04:05,525 INFO c.s.d.c.HomeController [main] Find user with given 3
+2020-05-10 10:04:05,531 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 10:05:58,306 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 9881 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:05:58,312 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:05:58,727 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.593 seconds (JVM running for 1.548)
+2020-05-10 10:05:58,753 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:05:58,763 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 10:05:58,766 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:05:58,770 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 10:05:58,775 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:05:58,779 INFO c.s.d.c.HomeController [main] Find user with given 3
+2020-05-10 10:05:58,782 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 10:06:06,839 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-10 10:06:06,910 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-10 10:06:07,174 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 9954 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:06:07,176 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-10 10:06:10,434 INFO c.s.d.c.HomeController [main] Starting spring boot application
+2020-05-10 10:06:10,510 INFO c.s.d.c.HomeController [restartedMain] Starting spring boot application
+2020-05-10 10:06:10,740 INFO c.s.d.DemoApplication [restartedMain] Starting DemoApplication on test03-System-Product-Name with PID 10033 (/home/test03/Documents/work/demo (1)/demo/target/classes started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:06:10,742 INFO c.s.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-10 10:06:12,460 INFO c.s.d.DemoApplication [restartedMain] Started DemoApplication in 1.945 seconds (JVM running for 2.558)
+2020-05-10 10:06:27,258 INFO c.s.d.DemoApplicationTests [main] Starting DemoApplicationTests on test03-System-Product-Name with PID 10164 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:06:27,264 INFO c.s.d.DemoApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:06:27,716 INFO c.s.d.DemoApplicationTests [main] Started DemoApplicationTests in 0.632 seconds (JVM running for 1.639)
+2020-05-10 10:06:27,738 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 10:10:10,142 INFO c.s.d.DemoApplicationTests [main] Starting DemoApplicationTests on test03-System-Product-Name with PID 10963 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:10:10,148 INFO c.s.d.DemoApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:10:10,252 ERROR o.s.t.c.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@61942c1] to prepare test instance [com.sample.demo.DemoApplicationTests@6f63c44f]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassTestDescriptor.java:349) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:215) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:349) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:313) ~[?:1.8.0_252]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[?:1.8.0_252]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:647) ~[?:1.8.0_252]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:348) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$2(ClassTestDescriptor.java:259) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$3(ClassTestDescriptor.java:263) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[?:1.8.0_252]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstanceProvider$4(ClassTestDescriptor.java:262) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:82) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:59) ~[junit-jupiter-engine-5.3.1.jar:5.3.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_252]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[?:1.8.0_252]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) [junit-platform-launcher-1.5.2.jar:1.5.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImp': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sample.demo.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 61 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sample.demo.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1700) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1256) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126) ~[spring-boot-test-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 61 more
+2020-05-10 10:11:59,842 INFO c.s.d.s.UserServiceImpTest [main] Starting UserServiceImpTest on test03-System-Product-Name with PID 11179 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:11:59,848 INFO c.s.d.s.UserServiceImpTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:12:00,372 INFO c.s.d.s.UserServiceImpTest [main] Started UserServiceImpTest in 0.774 seconds (JVM running for 2.026)
+2020-05-10 10:12:00,399 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:12:00,407 INFO c.s.d.c.HomeController [main] Return all users data
+2020-05-10 10:12:00,410 INFO c.s.d.c.HomeController [main] Save new user
+2020-05-10 10:12:00,412 INFO c.s.d.c.HomeController [main] Find users with firstname contains: user
+2020-05-10 10:12:00,415 INFO c.s.d.c.HomeController [main] Find user with given firstName : user_name1
+2020-05-10 10:12:00,417 INFO c.s.d.c.HomeController [main] Find user with given 3
+2020-05-10 10:12:00,419 INFO c.s.d.c.HomeController [main] Delete user with given 3
+2020-05-10 10:12:15,075 INFO c.s.d.c.HomeControllerTest [main] Starting HomeControllerTest on test03-System-Product-Name with PID 11260 (started by test03 in /home/test03/Documents/work/demo (1)/demo)
+2020-05-10 10:12:15,081 INFO c.s.d.c.HomeControllerTest [main] No active profile set, falling back to default profiles: default
+2020-05-10 10:12:16,465 INFO c.s.d.c.HomeControllerTest [main] Started HomeControllerTest in 1.579 seconds (JVM running for 2.62)

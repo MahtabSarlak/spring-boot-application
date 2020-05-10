@@ -9,9 +9,9 @@ import java.util.List;
 public interface UserService {
     public List<UserDto> getAll();
 
-    public void create(Users user);
+    public Users create(Users user);
 
-    public void update(Users user);
+    public Users update(Users user);
 
     public void deleteUserById(Long id) throws RecordNotFoundException;
 
